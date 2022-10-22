@@ -1,0 +1,85 @@
+a,
+a * {
+  cursor: pointer !important;
+  text-decoration: inherit !important;
+}
+
+.product {
+    width: 500px;
+    height: auto;
+    margin: 0 auto 50px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: -10px 10px 30px 10px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    color: #333;
+    border-radius: 10px;
+}
+
+.page-title {
+    color: #000;
+    font-size: 90px !important;
+    z-index: 2;
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+  }
+  .jumbotron {
+    text-align: center;
+    padding-bottom: 0px !important;
+  }
+  .jumbotron-title {
+    margin-top: 0 !important;
+  }
+  .card-image {
+    margin: 30px 10px;
+    max-height: 200px;
+    max-width: 200px;
+  }
+  .card-title,.card-text{
+    color: black;
+  }
+  
+  .col-md-6 .col-md-6 {
+    padding-top: 20px !important;
+  }
+  
+  .col-md-6 .col-md-12,
+  .col-md-12 .col-md-12 {
+    margin-top: 20px !important;
+  }
+  #first-nav-social-icon {
+    padding-left: 23px;
+  }
+  
+  #anchor {
+    position: relative;
+    top: -100px;
+  }
+  
+  .card-icon {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: gray;
+  }
+  
+  .product-image {
+    height: 250px;
+  }
+  .product-image1{
+    height: 400px;
+  }
+  
+  #kits .card-body {
+    height: 250px;
+  }
+  
+  #resins .card-body {
+    height: 200px;
+  }
+  
+  #tools .card-body {
+    height: 200px;
+  }
+  

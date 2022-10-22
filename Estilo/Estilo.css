@@ -1,0 +1,539 @@
+#first-nav-social-icon {
+    padding-left: 23px;
+  }
+  
+  #anchor {
+    position: relative;
+    top: -100px;
+  }
+  
+  .card-icon {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: gray;
+  }
+  
+  .product-image {
+    height: 250px;
+  }
+  
+  #kits .card-body {
+    height: 250px;
+  }
+  
+  #resins .card-body {
+    height: 200px;
+  }
+  
+  #tools .card-body {
+    height: 200px;
+  }
+  
+  .sup {
+    position: relative;
+    font-size: 30%;
+    line-height: 0;
+    vertical-align: baseline;
+    top: -1.75em;
+  }
+  
+  .insta-nav-icon {
+    padding: 0 2px;
+    color: #fff;
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+  }
+  
+  .text-outline {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+  
+  @font-face {
+    font-family: traffic;
+    src: url(fonts/traffic4.woff) format("woff");
+  }
+  
+  .mobile-only {
+    display: none;
+  }
+  
+  .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show > .nav-link {
+    font-weight: 600;
+  }
+  
+  .product-title {
+    font-size: 2.5rem;
+  }
+  
+  .background-pic {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/dentists_working.png) top center/100% no-repeat;
+  }
+  
+  .card-image {
+    margin: 30px 10px;
+    max-height: 200px;
+    max-width: 200px;
+  }
+  
+  .col-md-6 .col-md-6 {
+    padding-top: 20px !important;
+  }
+  
+  .col-md-6 .col-md-12,
+  .col-md-12 .col-md-12 {
+    margin-top: 20px !important;
+  }
+  
+  a,
+  a * {
+    cursor: pointer !important;
+    text-decoration: inherit !important;
+  }
+  
+  nav {
+    padding: 2px 16px !important;
+  }
+  
+  .fixed {
+    position: fixed !important;
+  }
+  
+  .portrait {
+    background: url(../images/faded-portrait.png) no-repeat center;
+    width: 250px;
+    height: 350px;
+    background-size: contain !important;
+    margin-top: 30px;
+  }
+  
+  .advantages {
+    margin: 7px 0;
+  }
+  
+  .procedure-icon {
+    position: absolute;
+    right: 18px;
+    top: 15px;
+  }
+  
+  .link-unstyled {
+    color: inherit !important;
+    text-decoration: inherit !important;
+  }
+  
+  .box-link:hover,
+  .btn-primary:hover {
+    /* opacity: .7 !important; */
+    transition: all 0.3s ease !important;
+    box-shadow: 2px 3px 3px 2px rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  }
+  
+  .box-link,
+  .btn-primary {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  }
+  
+  .top-svg {
+    margin-top: -30px !important;
+    margin-bottom: -3px !important;
+  }
+  
+  svg path {
+    filter:url(#shadow);
+  }
+  
+  
+  .box-link {
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  .flag {
+    opacity: 0.8;
+  }
+  
+  .btn-primary {
+    background-color: #3686b4 !important;
+    border: #3686b4 !important;
+    min-width: 250px !important;
+  }
+  
+  .btn-primary:hover {
+    cursor: pointer;
+  }
+  
+  .container {
+    max-width: 866px !important;
+  }
+  
+  #title,
+  #subtitle {
+    color: #203c6d;
+    font-family: traffic, sans-serif;
+    z-index: 100 !important;
+  }
+  
+  #title {
+    margin-bottom: -0.15em;
+    letter-spacing: 0.05em !important;
+  }
+  #subtitle {
+    margin-bottom: -10px;
+  }
+  /* .restricted {
+    font-size: 25%;
+    top: -2.5em;
+    position: relative;
+    opacity: .8;
+  } */
+  
+  .fit {
+    display: inline-block !important;
+    white-space: nowrap !important;
+  }
+  
+  a.carousel-control-prev,
+  a.carousel-control-next {
+    top: 50% !important;
+    bottom: 50% !important;
+  }
+  
+  iframe {
+    border-radius: 0.3em;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    padding-bottom: 0px !important;
+  }
+  
+  .navbar-toggler:focus {
+    outline: none !important;
+  }
+  
+  .ordering-card {
+    min-height: 148px !important;
+  }
+  
+  .footer-socials {
+    text-align: center;
+    top: 0px;
+  }
+  
+  .ribbond-logo {
+    height: 55px;
+    width: 240px;
+    background-size: contain !important;
+    background: url(../images/logo_long.png) no-repeat center;
+  }
+  
+  .jumbotron-title {
+    margin-top: -2rem !important;
+  }
+  
+  .min-height-230 {
+    height: 230px;
+  }
+  
+  .round {
+    border-radius: 20px;
+  }
+  
+  .page-title {
+    color: #000;
+    font-size: 90px !important;
+    z-index: 2;
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+  }
+  
+  .mini-portrait {
+    margin-top: -72px;
+  }
+  
+  img.rounded {
+    width: 160px !important;
+    height: 100px !important;
+    object-fit: cover;
+  }
+  
+  .bottom-svg {
+    transform: rotate(180deg);
+    margin-top: -16px;
+    margin-bottom: -50px;
+  }
+  
+  .gtrans-wrapper {
+    position: absolute;
+    right: 10px;
+    z-index: 100;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .gtrans-wrapper {
+      position: relative;
+      text-align: right;
+      opacity: .5;
+    }
+  }
+  
+  @media screen and (max-width: 822px) {
+    .scientific-background-title {
+      font-size: 4em !important;
+      margin: -40px 0 0 -285px !important;
+    }
+    .top-svg {
+      margin-top: -30px !important;
+      margin-bottom: -5px;
+    }
+  }
+  
+  @media screen and (max-width: 801px) {
+    .min-height-230 {
+      height: 255px !important;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .product-image {
+      height: unset !important;
+    }
+  
+    .order-card-wrapper {
+      margin-left: 100px !important;
+      margin-right: 100px !important;
+    }
+  
+    .card-body {
+      height: unset !important;
+    }
+  
+    .portrait {
+      top: 50px !important;
+      margin-bottom: -90px;
+    }
+  
+    .min-height-230 {
+      height: 220px !important;
+    }
+  
+    .fiber-comparison-title {
+      font-size: 4em !important;
+      margin: -40px 0 0 -230px !important;
+    }
+  
+    .international-dealers-title {
+      font-size: 4em !important;
+      margin: -40px 0 0 -270px !important;
+    }
+  }
+  
+  @media screen and (max-width: 634px) {
+    .scientific-background-title {
+      font-size: 3em !important;
+      margin: -30px 0 0 -216px !important;
+    }
+    .bottom-svg {
+      margin-top: -15px !important;
+      margin-bottom: -20px !important;
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    
+    .order-card-wrapper {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+  
+    .jumbotron-title {
+      margin-top: 0 !important;
+    }
+    .portrait {
+      height: 170px;
+      width: 150px;
+      margin-right: 0 !important;
+      left: 250px;
+      top: -150px !important;
+      position: relative;
+      margin-bottom: -200px;
+      margin-top: 0;
+    }
+  
+    .ribbond-logo {
+      height: 45px;
+      width: 200px;
+    }
+  
+    .col-sm-6 + .col-sm-6 {
+      margin-top: 20px;
+    }
+  
+    .international-dealers-title {
+      font-size: 3em !important;
+      margin: -30px 0 0 -205px !important;
+    }
+  }
+  
+  @media screen and (max-width: 525px) {
+    .display-4 {
+      font-size: 3em !important;
+    }
+  
+    .portrait {
+      left: 230px;
+    }
+    .page-title {
+      font-size: 4em !important;
+      margin-top: -40px !important;
+      color: #000;
+    }
+    .contact-title {
+      margin-left: -105px !important;
+    }
+    .products-title {
+      margin-left: -118px !important;
+    }
+    .applications-title {
+      margin-left: -162px !important;
+    }
+    .awards-title {
+      margin-left: -100px !important;
+    }
+    .bibliography-title {
+      margin-left: -165px !important;
+    }
+    .fiber-comparison-title {
+      font-size: 3em !important;
+      margin: -30px 0 0 -175px !important;
+    }
+    .clinical-cases-title {
+      font-size: 3em !important;
+      margin: -30px 0 0 -140px !important;
+    }
+    .scientific-background-title {
+      font-size: 3em !important;
+      margin: -30px 0 0 -216px !important;
+    }
+    .international-dealers-title {
+      font-size: 3em !important;
+      margin: -30px 0 0 -205px !important;
+    }
+    .about-us-title {
+      margin-left: -122px !important;
+    }
+  }
+  @media screen and (max-width: 486px) {
+    .bottom-svg {
+      margin-top: -10px;
+    }
+  }
+  
+  @media screen and (max-width: 438px) {
+    .scientific-background-title {
+      font-size: 2.3em !important;
+      margin: -18px 0 0 -168px !important;
+    }
+  }
+  
+  @media screen and (max-width: 430px) {
+    .mini-portrait {
+      margin-top: 0;
+    }
+  
+    .top-svg {
+      margin-bottom: -5px;
+    }
+  }
+  
+  @media screen and (max-width: 412px) {
+    .portrait {
+      left: 190px;
+    }
+    .btn-primary {
+      min-width: 200px !important;
+    }
+    .product-box {
+      width: 100vw !important;
+      position: relative !important;
+      left: -45px !important;
+      box-shadow: none;
+      border-bottom: 1px #eee solid;
+    }
+    .product-title {
+      font-size: 3rem !important;
+    }
+    .international-dealers-title {
+      font-size: 2em !important;
+      margin: -20px 0 0 -137px !important;
+    }
+    .mobile-only {
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .portrait {
+      left: 170px;
+    }
+    .bottom-svg {
+      margin-top: -15px;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .display-4 {
+      font-size: 2.5em !important;
+    }
+  
+    .fiber-comparison-title {
+      font-size: 2.5em !important;
+      margin: -30px 0 0 -148px !important;
+    }
+  }
+  
+  @media screen and (max-width: 349px) {
+    .portrait-wrapper {
+      justify-content: center;
+    }
+    .portrait {
+      position: static;
+      width: 224px;
+      height: 269px;
+      background-size: contain !important;
+      margin: 0 auto -20px auto !important;
+    }
+  
+    .ribbond-logo {
+      background: url(../images/logo.png) no-repeat center;
+      width: 60px;
+    }
+  
+    .scientific-background-title {
+      font-size: 2.1em !important;
+      margin: -20px 0 0 -153px !important;
+    }
+  
+    .top-svg {
+      margin-bottom: -7px;
+    }
+  }
+  
